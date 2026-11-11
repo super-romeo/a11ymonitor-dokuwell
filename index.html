@@ -16,6 +16,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For site owners and web teams: your pages scanned on a schedule for accessibility issues, with a clear list per page and alerts when a change adds new ones.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -75,38 +79,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Access Scan Monitor</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Access Scan Monitor</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>See every accessibility issue on your site — and know when a new release adds more</h1>
-    <p class="sub">For owners of websites and shops, web agencies and in-house teams: add your site, and its pages are scanned on a schedule against automated WCAG checks; you get a list of issues per page, a trend over time and an alert when new issues appear.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For owners of websites and shops</p>
+      <h1 class="rise" style="--i:1" data-len="long">See every accessibility issue on your site&nbsp;<span class="soft">— and know when a new release adds more</span></h1>
+      <p class="rise" style="--i:2">For owners of websites and shops, web agencies and in-house teams: add your site, and its pages are scanned on a schedule against automated WCAG checks; you get a list of issues per page, a trend over time and an alert when new issues appear.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="165" font-size="40" font-weight="600" fill="#0a1524">Scheduled scans</text><line x1="130" y1="210" x2="1070" y2="210" stroke="#dde2ea" stroke-width="3" fill="none" /><rect x="130" y="270" width="480" height="64" rx="12" fill="#dfe8f7" /><text x="160" y="312" font-size="32" fill="#0a1524">Issues per page</text><rect x="130" y="360" width="420" height="28" rx="10" fill="#dde2ea" /><rect x="130" y="410" width="360" height="28" rx="10" fill="#b9c3d2" /><rect x="130" y="460" width="400" height="28" rx="10" fill="#dde2ea" /><rect x="130" y="510" width="300" height="28" rx="10" fill="#dde2ea" /><rect x="700" y="270" width="360" height="380" rx="20" fill="#dfe8f7" /><text x="740" y="320" font-size="32" font-weight="600" fill="#0a1524">new issues</text><rect x="740" y="400" width="70" height="180" rx="8" fill="#ffffff" /><rect x="840" y="400" width="70" height="180" rx="8" fill="#12397a" /><rect x="940" y="460" width="70" height="120" rx="8" fill="#b9c3d2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>Owners of websites</dd></div>
+      <div><dt>Scans</dt><dd>Scanned on a schedule</dd></div>
+      <div><dt>How</dt><dd>Automated WCAG checks</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Scheduled scans</b><span>Your pages scanned automatically, weekly or after each release.</span><br><a class="btn" href="price.html" data-ev="feature_scan">I need this</a></div>
-      <div class="card"><b>Issues per page</b><span>Missing alt text, low contrast, empty links, form fields without labels.</span><br><a class="btn" href="price.html" data-ev="feature_issues">I need this</a></div>
-      <div class="card"><b>New issue alerts</b><span>An alert when a page gets issues it did not have before.</span><br><a class="btn" href="price.html" data-ev="feature_alerts">I need this</a></div>
-      <div class="card"><b>Progress over time</b><span>How many issues were fixed and how many remain, site by site.</span><br><a class="btn" href="price.html" data-ev="feature_trend">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" font-weight="600" fill="#0a1524">Scheduled scans</text><rect x="140" y="210" width="110" height="80" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><rect x="270" y="210" width="110" height="80" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><rect x="400" y="210" width="110" height="80" rx="10" fill="#12397a" /><rect x="530" y="210" width="110" height="80" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><rect x="140" y="320" width="110" height="80" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="270" y="320" width="110" height="80" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="400" y="320" width="110" height="80" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="530" y="320" width="110" height="80" rx="10" fill="#b9c3d2" /><rect x="140" y="430" width="500" height="40" rx="12" fill="#dde2ea" /></svg></div>
+        <h3>Scheduled scans</h3><p>Your pages scanned automatically, weekly or after each release.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_scan">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="36" font-weight="600" fill="#0a1524">Issues per page</text><rect x="120" y="210" width="44" height="44" rx="8" fill="#12397a" /><rect x="190" y="220" width="420" height="24" rx="10" fill="#dde2ea" /><rect x="120" y="290" width="44" height="44" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><rect x="190" y="300" width="360" height="24" rx="10" fill="#b9c3d2" /><rect x="120" y="370" width="44" height="44" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><rect x="190" y="380" width="300" height="24" rx="10" fill="#dde2ea" /><text x="190" y="470" font-size="32" fill="#566174">low contrast</text></svg></div>
+        <h3>Issues per page</h3><p>Missing alt text, low contrast, empty links, form fields without labels.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_issues">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="230" y="70" width="340" height="460" rx="36" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="270" y="150" font-size="32" font-weight="600" fill="#0a1524">new issues</text><rect x="270" y="190" width="260" height="120" rx="16" fill="#dfe8f7" /><rect x="290" y="220" width="180" height="22" rx="8" fill="#ffffff" /><rect x="290" y="256" width="140" height="22" rx="8" fill="#12397a" /><polygon points="300,310 340,310 320,340" fill="#dfe8f7" /><rect x="270" y="380" width="260" height="90" rx="16" fill="#dde2ea" /><circle cx="400" cy="470" r="18" fill="#b9c3d2" /></svg></div>
+        <h3>New issue alerts</h3><p>An alert when a page gets issues it did not have before.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_alerts">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="34" font-weight="600" fill="#0a1524">Progress over time</text><line x1="150" y1="460" x2="660" y2="460" stroke="#dde2ea" stroke-width="4" fill="none" /><rect x="190" y="360" width="70" height="100" rx="8" fill="#b9c3d2" /><rect x="300" y="300" width="70" height="160" rx="8" fill="#dde2ea" /><rect x="410" y="250" width="70" height="210" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><rect x="520" y="200" width="70" height="260" rx="8" fill="#12397a" /></svg></div>
+        <h3>Progress over time</h3><p>How many issues were fixed and how many remain, site by site.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_trend">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">A small agency maintains 12 client sites. After a theme update on one shop, the next scan finds new issues on 40 product pages: the buy button lost its text label and the price is shown in low-contrast grey. The alert arrives the same day with the affected pages listed, and the developer fixes the template before customers complain.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>A small agency maintains 12 client sites. After a theme update on one shop, the next scan finds new issues on 40 product pages: the buy button lost its text label and the price is shown in low-contrast grey. The alert arrives the same day with the affected pages listed, and the developer fixes the template before customers complain.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" fill="none" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="240" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">theme update</text><text x="600" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">new issues</text><text x="960" y="230" font-size="32" font-weight="600" fill="#0a1524" text-anchor="middle">the same day</text><rect x="140" y="320" width="920" height="380" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="190" y="410" font-size="36" font-weight="600" fill="#0a1524">affected pages</text><rect x="190" y="470" width="640" height="36" rx="10" fill="#dde2ea" /><rect x="190" y="530" width="520" height="36" rx="10" fill="#b9c3d2" /><rect x="190" y="590" width="400" height="36" rx="10" fill="#dfe8f7" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>Accessibility problems rarely come from one big mistake. They creep in with every new page, plugin and redesign: an image uploaded without alternative text, a button that only has an icon, a form field without a label, grey text that is hard to read on a white background.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>Accessibility problems rarely come from one big mistake. They creep in with every new page, plugin and redesign: an image uploaded without alternative text, a button that only has an icon, a form field without a label, grey text that is hard to read on a white background.</p>
     <p>Fixing them once is not enough. A site that was checked last year has changed many times since, and nobody knows which of those changes added new problems. Manual audits are thorough but occasional, and between them the site drifts.</p>
     <p>The service scans your pages on a schedule and keeps watching. You add your site, choose which pages or sections to include, and set how often scans run: weekly, daily, or after each release.</p>
     <p>Each scan runs automated checks based on the Web Content Accessibility Guidelines (WCAG). It looks for issues that software can detect reliably: missing alternative text, low colour contrast, empty links and buttons, missing form labels, headings out of order, missing page language and similar problems.</p>
@@ -117,31 +151,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>Automated checks find many issues but not all of them. Whether a page makes sense with a screen reader or can be used with a keyboard alone still needs a person to test it. The service shows what can be checked automatically and leaves the rest to your manual review.</p>
     <p>The service is built for site owners, agencies and web teams anywhere. It is in preparation: we are checking whether site owners need it before it is built.</p>
     <p>The service finds and tracks issues; fixing them stays with the site owner or developer, and a scan alone does not make a site fully accessible.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>What does a scan check?</h3>
-    <p>Automated checks based on WCAG: alternative text, contrast, links and buttons, form labels, headings and more.</p>
-    <h3>Do I need to install anything on my site?</h3>
-    <p>No, pages are scanned from outside, the way a browser loads them.</p>
-    <h3>How often are pages scanned?</h3>
-    <p>Weekly, daily or after each release — you choose.</p>
-    <h3>Does it make my site fully accessible?</h3>
-    <p>No. It finds and tracks issues that software can detect; some checks need a person, and fixes stay with you.</p>
-    <h3>Can I use it already?</h3>
-    <p>Not yet. The service is in preparation, and we are checking whether site owners need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>What does a scan check?</h3><p>Automated checks based on WCAG: alternative text, contrast, links and buttons, form labels, headings and more.</p></div>
+      <div class="split flip"><h3>Do I need to install anything on my site?</h3><p>No, pages are scanned from outside, the way a browser loads them.</p></div>
+      <div class="split flip"><h3>How often are pages scanned?</h3><p>Weekly, daily or after each release — you choose.</p></div>
+      <div class="split flip"><h3>Does it make my site fully accessible?</h3><p>No. It finds and tracks issues that software can detect; some checks need a person, and fixes stay with you.</p></div>
+      <div class="split flip"><h3>Can I use it already?</h3><p>Not yet. The service is in preparation, and we are checking whether site owners need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Add your site</h2>
-    <p><label>Pages on your site<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>Up to 50</option><option>51–500</option><option>501–5,000</option><option>More than 5,000</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Start</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Add your site</h2>
+    </div>
+    <div class="tile stack">
+      <label>Pages on your site<select data-ev-focus="form_start"><option value="">— please choose —</option><option>Up to 50</option><option>51–500</option><option>501–5,000</option><option>More than 5,000</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Start</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Access Scan Monitor</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">Automated accessibility checks and monitoring. Not a legal opinion; manual testing and fixes stay with the site owner.</p>
+  <p>Automated accessibility checks and monitoring. Not a legal opinion; manual testing and fixes stay with the site owner.</p>
 </div></footer>
 
 </body>
